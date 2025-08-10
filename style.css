@@ -4,7 +4,6 @@
 }
 html,body{
   height: 100%;
-  /* background-image: url(body.jpg); */
   background-image: linear-gradient(green,rgb(112, 112, 210),pink);
   background-size: cover;
   background-repeat: no-repeat;
@@ -182,12 +181,15 @@ h4{
   transform: scale(1.02);
   transition:0.2s;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
   .main-heading{
     font-size: 20px;
   }
   .buttons{
     width: 250PX;
+  }
+  .About-h1{margin-bottom: 10px;
+
   }
   .container{
     display: flex;
@@ -198,7 +200,7 @@ h4{
     padding-top: 2px;
   }
   .buttons{
-    flex-wrap: wrap;
+    width: 200px;
   }
   .row{
     font-size: 15PX;
@@ -211,12 +213,10 @@ h4{
   img{
     width: 150px;
     height: 200px;
-    margin-left:85px ;
   }
   .hero-img{
     height: 200px;
-    width: 220;
-    ;
+    width: 150px;
   }
   h1{
     font-size: 30px;
@@ -225,9 +225,8 @@ h4{
     font-size: 20px;
   }
   p{
-    font-size: 10px;
+    font-size: 15px;
     padding-right: 30px;
-    width: 320PX;
     font-size: 11PX;
   }
   .click{
@@ -239,11 +238,13 @@ h4{
     width: 100px;
     gap: 10px;
     margin: 0 0 0 0 ;
-
-
   }
   H4{
     font-size: 12PX;
+  }
+  .text{
+    width: 200px;
+    margin-top: 25px;
   }
 }
 
