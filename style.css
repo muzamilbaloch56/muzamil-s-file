@@ -4,7 +4,7 @@
 }
 html,body{
   height: 100%;
-  background-image: linear-gradient(green,rgb(112, 112, 210),pink);
+  background-image: linear-gradient(green,rgb(112, 112, 210),blue);
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
@@ -13,14 +13,48 @@ html,body{
 .main-heading{
   display: flex;
   justify-content: center;
-  font-style: italic;
-  font-weight: 900;
-  font-size: 60px;
+  align-items: center;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 80px;
+  width: 1000px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
   background-image: linear-gradient(#87f3eb,#7d90fb,#87f3eb);
+}
+.inner-navbar{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-left: 100px;
+}
+.navbar-outer{
+  justify-content: center;
+  align-items: center;
+}
+.main-content{
+  display: flex;
+  justify-content: center;
+
+
 }
 .hero-content{
   display: flex;
+  border: 2PX solid black;
   justify-content: center;
+  height: 450px;
+  width: 1000px;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-image: linear-gradient(#87f3eb,#7d90fb,#87f3eb,blue);
+
 } 
 .hero-img{
   height: 250px;
@@ -182,9 +216,10 @@ h4{
   transition:0.2s;
 }
 @media screen and (max-width:500px){
-  .main-heading{
-    font-size: 20px;
-  }
+.inner-navbar{
+  gap: 20PX;
+  padding-left: 50PX;
+}
   .buttons{
     width: 250PX;
   }
@@ -206,9 +241,6 @@ h4{
     font-size: 15PX;
     gap: 35PX;
 
-  }
-  .hero-content{
-    width: 350PX;
   }
   img{
     width: 150px;
@@ -246,7 +278,9 @@ h4{
     width: 200px;
     margin-top: 25px;
   }
+  .footer{
+    margin-top: 50px;
+  }
 }
 
   
-
