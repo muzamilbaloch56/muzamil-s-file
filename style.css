@@ -223,7 +223,7 @@ h4{
 @media screen and (max-width:500px){
 .inner-navbar{
   gap: 20PX;
-  padding-left: 50PX;
+  padding-left: 20PX;
 }
   .buttons{
     width: 250PX;
@@ -289,3 +289,4 @@ h4{
 }
 
   
+
