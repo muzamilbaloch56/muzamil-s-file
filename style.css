@@ -42,7 +42,6 @@ html,body{
   display: flex;
   justify-content: center;
 
-
 }
 .hero-content{
   display: flex;
@@ -98,6 +97,10 @@ h2{
 p{
   margin-bottom: 10PX;
   font-size: 20PX;
+}
+a:hover{
+  font-weight: 900;
+  color: red;
 }
 .buttons{
   height: 120px;
@@ -207,7 +210,7 @@ h4{
   display: flex;
   justify-content: center;
   font-style: italic;
-  color: white;
+  color: black;
 }
 .skill:hover{
   box-shadow: 0  0 5px 7px orangered;
@@ -279,9 +282,8 @@ h4{
     margin-top: 25px;
   }
   .footer{
-    margin-top: 50px;
+    margin-top: 10px;
   }
 }
 
   
-
